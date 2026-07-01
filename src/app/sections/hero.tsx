@@ -3,7 +3,7 @@ import Image from "next/image";
 import { MapPin } from "lucide-react";
 import { FaRegFileAlt } from "react-icons/fa";
 
-export default function Hero() {
+export default function HeroSection() {
     return (
         <section id="hero" className="pt-15">
             {/* Sage banner */}

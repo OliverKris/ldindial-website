@@ -1,13 +1,17 @@
 import NavBar from "./components/navbar";
-import Hero from "./sections/hero";
-import Projects from "./sections/projects";
+import ExperienceSection from "./sections/experience";
+import ProjectSection from "./sections/projects";
+import HeroSection from "./sections/hero";
+import SkillSection from "./sections/skills";
 
 export default function Home() {
   return (
     <div className="">
       <NavBar />
-      <Hero />
-      <Projects />
+      <HeroSection />
+      <ProjectSection />
+      <SkillSection />
+      <ExperienceSection />
     </div>
   );
 }

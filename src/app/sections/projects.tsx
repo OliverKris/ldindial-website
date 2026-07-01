@@ -1,7 +1,7 @@
 import { PROJECTS } from "../data/projectData";
 import Project from "../components/projectCard";
 
-export default function Projects(){
+export default function ProjectSection(){
     return (
         <section id="work" className="border-t border-border py-20">
             <div className="max-w-5xl mx-auto px-6">

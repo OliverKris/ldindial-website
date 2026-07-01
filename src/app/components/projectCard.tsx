@@ -1,4 +1,4 @@
-export default function Project({data} : {data : any}){
+export default function ProjectCard({data} : {data : any}){
     return (
         <div key={data.number} className="group border-t border-border py-10 grid grid-cols-1 md:grid-cols-[72px_1fr] gap-6">
             {/* Number */}

@@ -22,7 +22,7 @@ export default function Button({
 }: ButtonProps) {
     
     const variants = {
-        primary: "bg-[var(--accent-action)] text-white hover:opacity-90",
+        primary: "bg-[var(--accent-action)] text-white hover:bg-[var(--accent-hover)]",
         secondary: "border border-[var(--border-color)] text-[var(--text-main)] hover:bg-[var(--bg-subtle)]",
     };
 
