@@ -6,7 +6,7 @@ type ButtonProps = (
     | (React.AnchorHTMLAttributes<HTMLAnchorElement> & { as: 'a' })
 ) & {
     variant?: 'primary' | 'secondary';
-    size?: 'md';
+    size?: 'md' | 'sm';
     icon?: React.ReactNode;
     className?: string;
 };

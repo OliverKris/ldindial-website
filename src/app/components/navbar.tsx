@@ -1,5 +1,7 @@
 import Button from "./button"
 
+const NAV_LINKS = ["About", "Impact", "Work", "Experience", "Contact"];
+
 export default function NavBar() {
     return (
         <header className="fixed top-0 inset-x-0 z-50 transition-all duration-300">
@@ -12,14 +14,18 @@ export default function NavBar() {
                     </span>
                 </button>
                 
-                {/* Navbar links */}
-                <ul className="flex flex-row items-center gap-5 font-mono">
-                    <li>About</li>
-                    <li>Skill</li>
-                    <li>Projects</li>
-                    <li>Experiences</li>
-                    <li>Contact</li>
-                    <li className="ps-3">
+                {/* Desktop */}
+                <ul className="hidden md:flex items-center gap-7 font-mono">
+                    {NAV_LINKS.map((link) => (
+                        <li key={link}>
+                            <button
+                                className={"text-sm text-muted-foreground hover:text-foreground transition-colors"}
+                            >
+                                {link}
+                            </button>
+                        </li>
+                    ))}
+                    <li>
                         <Button
                             size='sm'
                         >
