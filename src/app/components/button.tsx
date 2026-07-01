@@ -38,7 +38,7 @@ export default function Button({
         <Component
             {...props}
             className={cn(
-                "flex items-center justify-center gap-2 rounded-sm transition-all font-mono",
+                "flex items-center justify-center gap-2 rounded-sm transition-all font-sans",
                 sizes[size],
                 variants[variant],
                 className

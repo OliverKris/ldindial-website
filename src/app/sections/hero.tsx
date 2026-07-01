@@ -9,10 +9,10 @@ export default function Hero() {
             {/* Sage banner */}
             <div className="bg-primary">
                 <div className="max-w-5xl mx-auto px-6 py-3 flex items-center justify-between">
-                    <span className="text-xs text-primary-foreground/70 tracking-widest uppercase font-mono">
+                    <span className="text-xs text-primary-foreground/70 tracking-widest uppercase font-sans">
                         Portfolio · Class of 2027
                     </span>
-                    <span className="flex items-center gap-1.5 text-xs text-primary-foreground/70 font-mono">
+                    <span className="flex items-center gap-1.5 text-xs text-primary-foreground/70 font-sans">
                         <span className="w-1.5 h-1.5 rounded-full bg-green-300 animate-pulse" />
                         Open to Opportunties
                     </span>
@@ -23,15 +23,15 @@ export default function Hero() {
             <div className="max-w-5xl mx-auto px-6 pt-16 pb-20 grid grid-cols-1 md:grid-cols-[1fr_300px] gap-12 items-start">
                 {/* Left */}
                 <div>
-                    <p className="text-sm font-medium mb-3 tracking-wide text-(--accent-action) font-mono">
+                    <p className="text-sm font-medium mb-3 tracking-wide text-(--accent-action) font-sans">
                         Public Health · Management & Leadership
                     </p>
-                    <h1 className="text-5xl md:text-6xl font-bold leading-[1.05] tracking-tight mb-6 text-foreground">
+                    <h1 className="text-5xl md:text-6xl font-bold leading-[1.05] tracking-tight mb-6 text-foreground font-serif">
                         I don&apos;t just study<br />
                         health systems —<br />
                         <em className="not-italic" style={{ color: "var(--brand-primary)" }}>I improve them.</em>
                     </h1>
-                    <h2 className="text-lg text-muted-foreground leading-relaxed mb-8 max-w-xl font-mono">
+                    <h2 className="text-lg text-muted-foreground leading-relaxed mb-8 max-w-xl font-sans">
                         Lavani Dindial, GW · Graduating May 2027. 
                         My work sits where policy analysis meets operational management — identifying gaps others miss and translating evidence into decisions that stick.
                     </h2>

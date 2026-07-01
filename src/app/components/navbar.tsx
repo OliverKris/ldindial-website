@@ -15,7 +15,7 @@ export default function NavBar() {
                 </button>
                 
                 {/* Desktop */}
-                <ul className="hidden md:flex items-center gap-7 font-mono">
+                <ul className="hidden md:flex items-center gap-7 font-sans">
                     {NAV_LINKS.map((link) => (
                         <li key={link}>
                             <button

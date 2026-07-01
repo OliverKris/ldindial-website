@@ -1,0 +1,32 @@
+export const PROJECTS = [
+  {
+    number: "01",
+    tag: "Capstone · GIS Research",
+    year: "2024",
+    title: "What I Changed: 14 food-access blind spots in Cook County's policy map",
+    problem: "The county had no spatial model linking grocery access to chronic disease burden by neighborhood — decisions were being made without the geography.",
+    action: "Built an ArcGIS analysis across all 77 Chicago community areas. Layered SNAP retailer data, hospital admission rates, and transit coverage to score accessibility at the census-tract level.",
+    outcome: "The resulting policy brief was adopted by the Cook County Department of Public Health and cited in the 2025 CHIP planning process.",
+    tags: ["ArcGIS", "Policy Brief", "CHIP 2025"],
+  },
+  {
+    number: "02",
+    tag: "Consulting · Operations",
+    year: "2024",
+    title: "What I Changed: $240K in wasted spend made visible at 4 clinics",
+    problem: "A federally-qualified health center network had no standardized way to measure patient throughput — every site was an island, and leadership couldn't diagnose where wait times were bleeding capacity.",
+    action: "Led a 6-person team through process mapping, staff interviews, and EHR export analysis across all 4 sites. Modeled three workflow scenarios with 5-year cost projections.",
+    outcome: "40-page operational report delivered. One recommended change — centralizing check-in intake — was piloted at the flagship site within 60 days.",
+    tags: ["Process Mapping", "Cost-Benefit Analysis", "FQHC"],
+  },
+  {
+    number: "03",
+    tag: "Independent Research",
+    year: "2023",
+    title: "What I Changed: How county communicators framed vaccine outreach",
+    problem: "COVID-19 vaccine uptake in three suburban Latinx communities lagged the county average by 18 points. Existing campaigns were translated English materials — not culturally designed messaging.",
+    action: "Designed a 32-question bilingual survey, recruited 312 respondents, and ran logistic regression to isolate hesitancy predictors beyond demographics.",
+    outcome: "Findings presented to county outreach coordinators. Two messaging pivots from the recommendations were incorporated into the 2024 campaign cycle.",
+    tags: ["Survey Design", "Logistic Regression", "Health Equity"],
+  },
+];
